@@ -36,6 +36,12 @@ on:
         description: "⏰ 自定义构建时间- 仅在取消勾选'保持原设置'时有效(不懂请保持默认)"
         required: false
         default: ''
+        
+      enable_feature_KPM:
+        type: boolean
+        description: "是否启用内核模块(KPM)？"
+        required: true
+        default: true
 
       enable_feature_z:
         description: "添加风驰驱动"
